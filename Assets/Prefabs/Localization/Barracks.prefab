@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2385753595363425385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8965033050555947942}
+  - component: {fileID: 8381706095906995102}
+  m_Layer: 0
+  m_Name: Barracks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8965033050555947942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2385753595363425385}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8381706095906995102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2385753595363425385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb15fa0e7301ff849bf4d6dcede7c12b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: 0
+  entries:
+  - Language: Turkish
+    Text: "Buras\u0131 bir k\u0131\u015Fla binas\u0131\r\n\r\n\u0130\u015Flev: \xDCss\xFCn\xFCz\xFC
+      korumak ve d\xFC\u015Fman kamplar\u0131na sald\u0131rmak i\xE7in gerekli olan
+      \u015F\xF6valyeleri alt\u0131n kar\u015F\u0131l\u0131\u011F\u0131nda kiralay\u0131n.\r\n\r\nKullan\u0131n:
+      A\xE7\u0131lan penceredeki d\xFC\u011Fmeye t\u0131klayarak bir \u015F\xF6valye
+      kiralay\u0131n. Bir at se\xE7mek i\xE7in, LMB ile \xFCzerine t\u0131klayarak
+      se\xE7ilen konuma (RMB) gitme komutunu verin ve se\xE7imi iptal etmek i\xE7in
+      at \xFCzerinde tekrar LMB'ye t\u0131klay\u0131n."
+    Object: {fileID: 0}
+  - Language: English
+    Text: 'This is a barracks building
+
+
+      Function: Hire knights for gold, necessary
+      to protect your base and attack enemy camps.
+
+
+      Use: Hire a knight by
+      clicking on the button in the pop-up window. To select a knight, click on him
+      with LMB to give him the command to move to the selected location - RMB, and
+      click LMB on the knight again to cancel the selection.'
+    Object: {fileID: 0}
+  - Language: Russian
+    Text: "\u042D\u0442\u043E \u0437\u0434\u0430\u043D\u0438\u0435 \u0431\u0430\u0440\u0430\u043A\u043E\u0432\r\n\r\n\u0424\u0443\u043D\u043A\u0446\u0438\u044F:
+      \u041D\u0430\u043D\u0438\u043C\u0430\u044E\u0442 \u0440\u044B\u0446\u0430\u0440\u0435\u0439
+      \u0437\u0430 \u0437\u043E\u043B\u043E\u0442\u043E, \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u044B\u0445
+      \u0434\u043B\u044F \u0437\u0430\u0449\u0438\u0442\u044B \u0432\u0430\u0448\u0435\u0439
+      \u0431\u0430\u0437\u044B \u0438 \u043D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u044F
+      \u043D\u0430 \u0432\u0440\u0430\u0436\u0435\u0441\u043A\u0438\u0435 \u043B\u0430\u0433\u0435\u0440\u044F.\r\n\r\n\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:
+      \u041D\u0430\u0439\u043C\u0438 \u0440\u044B\u0446\u0430\u0440\u044F, \u043D\u0430\u0436\u0430\u0432
+      \u043D\u0430 \u043A\u043D\u043E\u043F\u043A\u0443 \u0432\u043E \u0432\u0441\u043F\u043B\u044B\u0432\u0430\u044E\u0449\u0435\u043C
+      \u043E\u043A\u043D\u0435. \u0427\u0442\u043E\u0431\u044B \u0432\u044B\u0431\u0440\u0430\u0442\u044C
+      \u0440\u044B\u0446\u0430\u0440\u044F, \u0449\u0435\u043B\u043A\u043D\u0438
+      \u043F\u043E \u043D\u0435\u043C\u0443 \u041B\u041A\u041C, \u0447\u0442\u043E\u0431\u044B
+      \u0434\u0430\u0442\u044C \u0435\u043C\u0443 \u043A\u043E\u043C\u0430\u043D\u0434\u0443
+      \u0434\u0432\u0430\u0433\u0430\u0442\u044C\u0441\u044F \u043D\u0430 \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u0443
+      \u043B\u043E\u043A\u0430\u0446\u0438\u044E - \u041F\u041A\u041C, \u0438 \u0435\u0449\u0435
+      \u0440\u0430\u0437 \u0449\u0435\u043B\u043A\u043D\u0438 \u041B\u041A\u041C
+      \u043F\u043E \u0440\u044B\u0446\u0430\u0440\u044E, \u0447\u0442\u043E\u0431\u044B
+      \u043E\u0442\u043C\u0435\u043D\u0438\u0442\u044C \u0432\u044B\u0431\u043E\u0440."
+    Object: {fileID: 0}

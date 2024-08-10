@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: RangeEnemy
+  m_EditorClassIdentifier: Assembly-CSharp:Assets.Scripts.EnemyComponents:EnemyData
+  Name: 
+  EnemyLayerMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  Health: 100
+  Speed: 5
+  Damage: 5
+  AttackSpeed: 1.5
+  AttackRange: 8
+  AggroRange: 10
+  Prefab: {fileID: 1305780601382970571, guid: 9811ccfee99a748abbc00211019577ab, type: 3}

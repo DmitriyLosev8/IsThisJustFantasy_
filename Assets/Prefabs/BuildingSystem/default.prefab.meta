@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scripts/PlayerComponents/PlayerConfigs/Level 6.asset.meta
+guid: 877a4c0ce3827d6478e2afd7b65eec28
+NativeFormatImporter:
+========
+guid: 5bfc84a9bfab2af4f8b07a1bcf2381f9
+PrefabImporter:
+>>>>>>>> 123:Assets/Prefabs/BuildingSystem/CastleModel.prefab.meta
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
